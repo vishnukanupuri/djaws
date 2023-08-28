@@ -1,0 +1,10 @@
+{%extends "base.html"%}
+
+{%block content%}
+
+<div class="b">
+       <h1> Hello, dear Guests!</h1><hr>
+       <h2>{%for guest in Guests%}
+        {{guest.Guestname}} visited at {{guest.time}} <hr>{%endfor%}</h2>
+</div>
+{%endblock%}

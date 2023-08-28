@@ -1,0 +1,17 @@
+.body {
+      background-image: url('../images/Hellsing.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+
+.b{
+  color: #0e0707;
+  border: #ad1919;
+  display:flex;
+  background-color: aliceblue;
+  
+  box-sizing: content-box;
+  padding-right: 20px;
+
+}
